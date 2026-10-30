@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bekijk en vergelijk je social media views in een handig dashboard."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Social Media Scope | Jouw views in beeld</title>
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> CREATOR DASHBOARD</p>
+          <h1>Jouw content.<br /><span>In cijfers.</span></h1>
+          <p class="intro">
+            Een snelle blik op je laatste 7 posts. Welk platform scoort het best?
+          </p>
+        </div>
+        <div class="hero-note" aria-label="De gegevens zijn voorbeelddata">
+          <span class="note-icon" aria-hidden="true">✦</span>
+          <span>Jouw social snapshot</span>
+          <small>Voorbeelddata · laatste 7 posts</small>
+        </div>
+      </header>
+
+      <section class="section-heading" aria-labelledby="platforms-title">
+        <div>
+          <p class="eyebrow">DE CIJFERS</p>
+          <h2 id="platforms-title">Platform prestaties</h2>
+        </div>
+        <p class="section-caption">Views per post <span>↗</span></p>
+      </section>
+
+      <section id="platform-cards" class="platform-grid" aria-label="Views per platform"></section>
+
+      <footer class="dashboard-footer">
+        <span class="footer-mark" aria-hidden="true">S</span>
+        <p>Social Media Scope <span>·</span> Kleine cijfers, grote inzichten.</p>
+        <p class="footer-demo">DEMO DASHBOARD</p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
